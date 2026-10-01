@@ -4,7 +4,7 @@ The companion is opt-in. It displays the linked player's server-authoritative 5x
 
 After Plugin Hub publication, players install it by searching **ClanScape Bingo** in RuneLite's Plugin Hub, enable board-only tracking, run `/bingo link` in the relevant Discord server, and paste the temporary code into the plugin. They then click **Link RuneLite** in the **ClanScape Board** sidebar; the panel shows clear linking or retry feedback and clears the code only after the server accepts it. The sidebar then shows the live board, organizer-confirmed progress, completed Bingos, and the full rule for each tile.
 
-Before Plugin Hub publication, copy this folder to its own public GitHub repository, set the real HTTPS service URL as the config default, test with the RuneLite development client, and submit that repository to Plugin Hub. Do not submit this monorepo.
+This is the dedicated public repository for Plugin Hub submission. The plugin defaults to the official ClanScape HTTPS service; do not replace it with a staging address before publication. Plugin Hub tracks this repository at a pinned commit, so every public update must be tested and submitted separately.
 
 ## Staging test
 
